@@ -1,5 +1,5 @@
-FROM registry.access.redhat.com/ubi9/python-3.11
-
+#FROM registry.access.redhat.com/ubi9/python-3.11
+FROM python:3.11-slim
 WORKDIR /app
 
 COPY requirements.txt .
